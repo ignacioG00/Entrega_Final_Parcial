@@ -1,0 +1,253 @@
+03:29:35 **** Rebuild of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Biblioteca.o" "..\\src\\Biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Recaudaciones.o" "..\\src\\Recaudaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Contribuyente.o" "..\\src\\Contribuyente.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:29:48 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:32:08 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Contribuyente.o" "..\\src\\Contribuyente.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:32:11 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+Info: Nothing to build for PPLabo1EGuillen
+Info: Nothing to build for PPLabo1EGuillen
+Info: Nothing to build for PPLabo1EGuillen
+Info: Nothing to build for PPLabo1EGuillen
+20:32:31 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Contribuyente.o" "..\\src\\Contribuyente.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:32:38 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:32:42 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:32:57 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+Info: Nothing to build for PPLabo1EGuillen
+20:34:56 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Recaudaciones.o" "..\\src\\Recaudaciones.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:34:59 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+20:35:12 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Recaudaciones.o" "..\\src\\Recaudaciones.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+20:38:54 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Contribuyente.o" "..\\src\\Contribuyente.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Recaudaciones.o" "..\\src\\Recaudaciones.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+20:46:43 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Recaudaciones.o" "..\\src\\Recaudaciones.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+20:48:32 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+20:50:14 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+Info: Nothing to build for PPLabo1EGuillen
+23:24:51 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+23:26:24 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+23:47:11 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+Info: Nothing to build for PPLabo1EGuillen
+Info: Nothing to build for PPLabo1EGuillen
+00:46:45 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+Info: Nothing to build for PPLabo1EGuillen
+Info: Nothing to build for PPLabo1EGuillen
+01:00:44 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'imprimir_Contribuyentes':
+..\src\Informes.c:191:17: warning: passing argument 1 of 'strncmp' makes pointer from integer without a cast [-Wint-conversion]
+      if(strncmp(arrayRecaudaciones[b].idContribuyente,arrayContribuyente[i].idContribuyente)==0)
+                 ^~~~~~~~~~~~~~~~~~
+In file included from ..\src\biblioteca.h:13:0,
+                 from ..\src\Contribuyente.h:10,
+                 from ..\src\Informes.c:10:
+c:\mingw\include\string.h:85:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int strncmp (const char *, const char *, size_t) __MINGW_ATTRIB_PURE;
+                                      ^~~~~~~
+..\src\Informes.c:191:55: warning: passing argument 2 of 'strncmp' makes pointer from integer without a cast [-Wint-conversion]
+      if(strncmp(arrayRecaudaciones[b].idContribuyente,arrayContribuyente[i].idContribuyente)==0)
+                                                       ^~~~~~~~~~~~~~~~~~
+In file included from ..\src\biblioteca.h:13:0,
+                 from ..\src\Contribuyente.h:10,
+                 from ..\src\Informes.c:10:
+c:\mingw\include\string.h:85:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int strncmp (const char *, const char *, size_t) __MINGW_ATTRIB_PURE;
+                                      ^~~~~~~
+..\src\Informes.c:191:9: error: too few arguments to function 'strncmp'
+      if(strncmp(arrayRecaudaciones[b].idContribuyente,arrayContribuyente[i].idContribuyente)==0)
+         ^~~~~~~
+In file included from ..\src\biblioteca.h:13:0,
+                 from ..\src\Contribuyente.h:10,
+                 from ..\src\Informes.c:10:
+c:\mingw\include\string.h:85:38: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  int strncmp (const char *, const char *, size_t) __MINGW_ATTRIB_PURE;
+                                      ^~~~~~~
+01:00:50 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+Info: Nothing to build for PPLabo1EGuillen
+Info: Nothing to build for PPLabo1EGuillen
+Info: Nothing to build for PPLabo1EGuillen
+01:01:54 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:05:09 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:05:10 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:07:43 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:07:44 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:09:54 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:12:11 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:13:30 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:15:29 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:22:43 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:22:47 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:50:15 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'imprimir_Recaudaciones':
+..\src\Informes.c:233:15: warning: too many arguments for format [-Wformat-extra-args]
+        printf("%5d %15d %15f %10s %20d %20s \n\n",
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:51:44 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'imprimir_Recaudaciones':
+..\src\Informes.c:237:63: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+        printf("%5d %15d %15f %10s %20d %20s %15s %15s %15s %15s \n\n",
+                                                               ^
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+01:51:49 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+Info: Nothing to build for PPLabo1EGuillen
+Info: Nothing to build for PPLabo1EGuillen
+01:54:57 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+..\src\Main.c: In function 'main':
+..\src\Main.c:146:7: warning: implicit declaration of function 'imprimir_Recaudaciones' [-Wimplicit-function-declaration]
+    if(imprimir_Recaudaciones(Recaudaciones, TAM_RECAUDACIONES
+       ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+01:58:01 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+..\src\Informes.c: In function 'imprimir_Recaudaciones':
+..\src\Informes.c:237:63: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+        printf("%5d %15d %15f %10s %20d %20s %15s %15s %15s %15s \n\n",
+                                                               ^
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+02:02:06 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+02:04:28 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file PPLabo1EGuillen.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+02:04:32 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+02:13:21 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Informes.o" "..\\src\\Informes.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Biblioteca.o" "..\\src\\Biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
+02:14:05 **** Incremental Build of configuration Debug for project PPLabo1EGuillen ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main.o" "..\\src\\Main.c" 
+gcc -o PPLabo1EGuillen.exe "src\\Biblioteca.o" "src\\Contribuyente.o" "src\\Informes.o" "src\\Main.o" "src\\Recaudaciones.o" 
