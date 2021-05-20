@@ -229,7 +229,7 @@ int imprimir_Recaudaciones(eRecaudaciones arrayRecaudaciones[], int TAM_Recaudac
 				flagPrimerRec=1;
 				}
 
-				for(int b=0;b<TAM_Recaudaciones;b++)
+				for(int b=0;b<TAM_Contribuyente;b++)
 				{
 					if(arrayRecaudaciones[i].idContribuyente==arrayContribuyente[b].idContribuyente)
 					{
@@ -255,5 +255,154 @@ int imprimir_Recaudaciones(eRecaudaciones arrayRecaudaciones[], int TAM_Recaudac
 	}
 	return retorno;
 }
+/*
+a) Contribuyentes con más recaudaciones en estado “refinanciar”.
+*/
+
+int contribMasRecaudaciones(eRecaudaciones arrayRecaudaciones[], int TAM_Recaudaciones
+		,eContribuyente arrayContribuyente[], int TAM_Contribuyente)
+{
+	int retorno=-1;
+	int flagPrimerContrib=0;
+	int cantRecXContribuyente[TAM_Contribuyente];
+
+	if(arrayRecaudaciones!=NULL && arrayContribuyente!=NULL && TAM_Recaudaciones>0 && TAM_Contribuyente>0)
+	{
+		for(int i=0; i<TAM_Contribuyente; i++)
+		{
+			if(arrayContribuyente[i].isEmpty)
+			{
+
+				puts("\n\t | CONTRIBUYENTE |");
+				printf("| %5s | %15s | %15s | %15s |\n\n ","ID" ,"NOMBRE","APELLIDO","CUIL");
+				eContribuyente_MostrarUno(arrayContribuyente[i]);
+
+				for(int b=0;b<TAM_Recaudaciones;b++)
+				{
+					if(arrayRecaudaciones[i].isEmpty && strcmp(arrayRecaudaciones[i].estado,"REFINANCIAR")==0)
+					{
+						cantRecXContribuyente[i] +=1;
+
+						eRecaudaciones_MostrarUno(arrayRecaudaciones[b]);
+					}
+				}
+			}else{
+				continue;
+			}
+		}
+		ArraySort_Int(cantRecXContribuyente,TAM_Contribuyente,1);
+
+		printf("El contribuyente con mas recaudaciones en 'refinanciar' es : %s "),
+		retorno=1;
+	}
+	return retorno;
+}
+
+/*
+b) Cantidad de recaudaciones saldadas de importe mayor a 1000: Se imprimirá
+la cantidad de recaudaciones en estado “saldado” con ese importe o mayor.*/
+
+int cantRecaudaciones(eRecaudaciones arrayRecaudaciones[], int TAM_Recaudaciones
+		,eContribuyente arrayContribuyente[], int TAM_Contribuyente)
+{
+	int retorno=-1;
+	int contadorRecaudaciones=0;
+	if(arrayRecaudaciones!=NULL && arrayContribuyente!=NULL && TAM_Recaudaciones>0 && TAM_Contribuyente>0)
+	{
+		for(int i=0; i<TAM_Recaudaciones; i++)
+		{
+			if(arrayRecaudaciones[i].isEmpty && strcmp(arrayRecaudaciones[i].estado,"SALDADO")==0 && arrayRecaudaciones[i].importe >999)
+			{
+				contadorRecaudaciones ++;
+			}else{
+				continue;
+			}
+		}
+		printf("la cantidad de recaudaciones 'saldadas' de importe mayor a 1000 es de: %d\n", contadorRecaudaciones);
+		retorno=1;
+	}
+	return retorno;
+}
+/*
+c) Informar todos los datos de los contribuyentes de un tipo de recaudación
+ingresada por el usuario (ARBA, IIBB, GANANCIAS)*/
+
+int informe_ContribDeTipoRec(eRecaudaciones arrayRecaudaciones[], int TAM_Recaudaciones
+		,eContribuyente arrayContribuyente[], int TAM_Contribuyente)
+{
+	int retorno=-1;
+	char tipoRec[20];
+	int opc=get_IntRange("\t1- ARBA \n\t2 - IIBB \n\t3 - GANANCIAS","ERROR REINGRESE EL TIPO DE RECAUDACION:\n "
+				"\t1- ARBA \n\t2 - IIBB \n\t3 - GANANCIAS",1,3);
+		switch(opc){
+		case 1:
+			strcpy(tipoRec, "ARBA");
+			break;
+		case 2:
+			strcpy(tipoRec, "IIBB");
+			break;
+		case 3:
+			strcpy(tipoRec, "GANANCIAS");
+			break;
+		}
+	if(arrayRecaudaciones!=NULL && arrayContribuyente!=NULL && TAM_Recaudaciones>0 && TAM_Contribuyente>0)
+	{
+		for(int i=0; i<TAM_Recaudaciones; i++)
+		{
+			if(arrayRecaudaciones[i].isEmpty && strcmp(arrayRecaudaciones[i].tipoRecaudacion,tipoRec)==0)
+			{
+				for(int b=0;b<TAM_Contribuyente;b++)
+				{
+					if(arrayRecaudaciones[i].idContribuyente==arrayContribuyente[b].idContribuyente)
+					{
+						eContribuyente_MostrarUno(arrayContribuyente[i]);
+					}
+				}
+			}else{
+				continue;
+			}
+		}
+		retorno=1;
+	}
+	return retorno;
+}
+
+
+
+/*
+d)Nombre y c.u.i.l. de los Contribuyentes que pagaron impuestos en el mes de
+FEBRERO.
+*/
+
+int pagaronEnFebrero(eRecaudaciones arrayRecaudaciones[], int TAM_Recaudaciones
+		,eContribuyente arrayContribuyente[], int TAM_Contribuyente)
+{
+	int retorno=-1;
+	if(arrayRecaudaciones!=NULL && arrayContribuyente!=NULL && TAM_Recaudaciones>0 && TAM_Contribuyente>0)
+	{
+		for(int i=0; i<TAM_Recaudaciones; i++)
+		{
+			if(arrayRecaudaciones[i].isEmpty && strcmp(arrayRecaudaciones[i].estado,"SALDADO")==0 && arrayRecaudaciones[i].mes == 2)
+			{
+				for(int b=0;b<TAM_Contribuyente;b++)
+				{
+					if(arrayRecaudaciones[i].idContribuyente==arrayContribuyente[b].idContribuyente)
+					{
+						puts("\n\tPAGARON EN FEBRERO\n");
+						printf(" %15s %15s %15s \n\n",
+								arrayContribuyente[b].cuil,
+								arrayContribuyente[b].nombre,
+								arrayContribuyente[b].apellido);
+					}
+				}
+			}else{
+				continue;
+			}
+		}
+		retorno=1;
+	}
+	return retorno;
+}
+
 
 #endif /* ENTIDADES_C_ */
