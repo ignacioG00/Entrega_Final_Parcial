@@ -167,6 +167,49 @@ int main(void) {
 				puts("NO EXISTE CONTRIBUYENTE CARGADO.");
 				}
 			break;
+		case 9:
+			if(flagContrib==1){
+				puts("\n\n\t *** CONTRIBUYENTE ***");
+				puts("\t *** IMPRIMIR CONTRIBUYENTE CON TIPO DE RECAUDACION ***\n\n");
+			if(informe_ContribDeTipoRec(Recaudaciones, TAM_RECAUDACIONES
+					,Contribuyente, TAM_CONTRIBUYENTE))
+			{
+				puts(" \n* IMPRESION EXITOSA *\n");
+				system("pause");
+			}
+			}else{
+				puts("NO EXISTE CONTRIBUYENTE CARGADO.");
+				}
+			break;
+		case 10:
+			if(flagContrib==1){
+				puts("\n\n\t *** CONTRIBUYENTES ***");
+				puts("\t *** IMPRIMIR CONTRIBUYENTES QUE PAGARON EN FEBRERO ***\n\n");
+			if(pagaronEnFebrero(Recaudaciones, TAM_RECAUDACIONES
+					,Contribuyente, TAM_CONTRIBUYENTE))
+			{
+				puts(" \n* IMPRESION EXITOSA *\n");
+				system("pause");
+			}
+			}else{
+				puts("NO EXISTE CONTRIBUYENTE CARGADO.");
+				}
+			break;
+		case 11:
+			if(flagContrib==1){
+				puts("\n\n\t *** RECAUDACIONES ***");
+				puts("\t *** IMPRIMIR CANTIDAD RECAUDACIONES MAYORES A 1000 ***\n\n");
+			if(cantRecaudaciones(Recaudaciones, TAM_RECAUDACIONES
+					,Contribuyente, TAM_CONTRIBUYENTE))
+			{
+				puts(" \n* IMPRESION EXITOSA *\n");
+				system("pause");
+			}
+			}else{
+				puts("NO EXISTE CONTRIBUYENTE CARGADO.");
+				}
+			break;
+
 		}
 	} while (opc != 0);
 

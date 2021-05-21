@@ -257,13 +257,12 @@ int imprimir_Recaudaciones(eRecaudaciones arrayRecaudaciones[], int TAM_Recaudac
 }
 /*
 a) Contribuyentes con más recaudaciones en estado “refinanciar”.
-*/
+
 
 int contribMasRecaudaciones(eRecaudaciones arrayRecaudaciones[], int TAM_Recaudaciones
 		,eContribuyente arrayContribuyente[], int TAM_Contribuyente)
 {
 	int retorno=-1;
-	int flagPrimerContrib=0;
 	int cantRecXContribuyente[TAM_Contribuyente];
 
 	if(arrayRecaudaciones!=NULL && arrayContribuyente!=NULL && TAM_Recaudaciones>0 && TAM_Contribuyente>0)
@@ -292,12 +291,12 @@ int contribMasRecaudaciones(eRecaudaciones arrayRecaudaciones[], int TAM_Recauda
 		}
 		ArraySort_Int(cantRecXContribuyente,TAM_Contribuyente,1);
 
-		printf("El contribuyente con mas recaudaciones en 'refinanciar' es : %s "),
+		printf("El contribuyente con mas recaudaciones en 'refinanciar' es : %d", *cantRecXContribuyente);
 		retorno=1;
 	}
 	return retorno;
 }
-
+*/
 /*
 b) Cantidad de recaudaciones saldadas de importe mayor a 1000: Se imprimirá
 la cantidad de recaudaciones en estado “saldado” con ese importe o mayor.*/
